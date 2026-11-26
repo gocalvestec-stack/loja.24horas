@@ -4,14 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GONÇALVES MODA - Moda masculina e feminina com ofertas selecionadas.">
-  <title>RD MODA</title>
+
+  <meta name="description" content="RD MODA - Moda masculina e feminina, calçados e acessórios.">
+
+  <title>RD MODA | Sua loja de estilo</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <a class="logo" href="#">RD <span>MODA</span></a>
+<header class="topo">
+  <a class="logo" href="#inicio">RD <span>MODA</span></a>
+
   <nav>
     <a href="#inicio">Início</a>
     <a href="#masculino">Masculino</a>
@@ -21,16 +26,21 @@
 </header>
 
 <section class="hero" id="inicio">
-  <div>
-    <p>RD MODA</p>
-    <h1>Seu estilo.<br>Suas escolhas.</h1>
-    <span>Moda masculina e feminina para todos os momentos.</span>
-    <a class="botao" href="#ofertas">CONFERIR COLEÇÃO</a>
+  <div class="hero-conteudo">
+    <p class="destaque">NOVA COLEÇÃO</p>
+
+    <h1>Vista seu estilo.<br>Seja você.</h1>
+
+    <p>Descubra roupas, calçados e acessórios para todos os momentos.</p>
+
+    <a class="botao" href="#ofertas">COMPRAR AGORA</a>
   </div>
 </section>
 
 <section class="categorias">
-  <h2>Explore nossas categorias</h2>
+  <h2>Explore a RD MODA</h2>
+  <p>Encontre seu próximo estilo favorito.</p>
+
   <div class="categorias-grid">
     <a href="#masculino">Masculino</a>
     <a href="#feminino">Feminino</a>
@@ -40,27 +50,60 @@
 </section>
 
 <section class="produtos" id="masculino">
-  <h2>Moda masculina</h2>
+  <div class="titulo-secao">
+    <span>ESTILO PARA VOCÊ</span>
+    <h2>Moda masculina</h2>
+    <p>Peças para renovar seu visual.</p>
+  </div>
+
   <div id="listaMasculina" class="grid"></div>
 </section>
 
 <section class="produtos" id="feminino">
-  <h2>Moda feminina</h2>
+  <div class="titulo-secao">
+    <span>BELEZA E PERSONALIDADE</span>
+    <h2>Moda feminina</h2>
+    <p>Encontre peças que combinam com você.</p>
+  </div>
+
   <div id="listaFeminina" class="grid"></div>
 </section>
 
+<section class="banner-ofertas">
+  <div>
+    <span>SELEÇÃO ESPECIAL</span>
+    <h2>Seu próximo look está aqui.</h2>
+    <a href="#ofertas" class="botao">VER OFERTAS</a>
+  </div>
+</section>
+
 <section class="produtos" id="ofertas">
-  <h2>Ofertas selecionadas</h2>
+  <div class="titulo-secao">
+    <span>ESCOLHAS DA RD MODA</span>
+    <h2>Ofertas selecionadas</h2>
+    <p>Confira nossos produtos em destaque.</p>
+  </div>
+
   <div id="listaOfertas" class="grid"></div>
 </section>
 
 <footer>
-  <h2>RD MODA</h2>
-  <p>Moda, estilo e ofertas para você.</p>
-  <p>© 2026 RD Moda</p>
+  <h2>RD <span>MODA</span></h2>
+
+  <p>Seu estilo começa aqui.</p>
+
+  <div class="footer-links">
+    <a href="#inicio">Início</a>
+    <a href="#masculino">Masculino</a>
+    <a href="#feminino">Feminino</a>
+    <a href="#ofertas">Ofertas</a>
+  </div>
+
+  <small>© 2026 RD MODA. Todos os direitos reservados.</small>
   <small>Este site participa de programa de afiliados.</small>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
